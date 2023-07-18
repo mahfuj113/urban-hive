@@ -1,0 +1,80 @@
+@media screen and (max-width:576px) {
+
+    /* nav related media query */
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-items a {
+        margin-top: 10px;
+    }
+
+    .nav-items .login-btn {
+        width: 100%;
+        margin: 50px auto 0;
+    }
+
+    /* banner media query */
+    .banner-container {
+        flex-direction: column;
+
+    }
+
+    .banner-text,
+    .banner-img {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .logo-icon {
+        margin-left: 50px;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    /* all product media query */
+    .all-product {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .discount-container {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .discount-img {
+        width: 100%;
+    }
+
+    .discount-img img {
+        width: 70%;
+    }
+
+    .discount-percentage {
+        left: 250px;
+    }
+
+    .discount-content {
+        width: 80%;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .customer-section {
+        width: 100%;
+    }
+
+    .customer-container {
+        width: 90%;
+    }
+}
